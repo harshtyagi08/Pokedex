@@ -1,0 +1,30 @@
+.pokemon-details-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pokemon-details-name{
+    font-size: x-large ;
+    color: black;
+    margin-top: 1rem;
+}
+.pokemon-details-name >span{
+    font-size: larger;
+    letter-spacing: 0.5rem;
+}
+.pokemon-details-types{
+    display: flex;
+    margin-top: 2rem;
+    gap: 3rem;
+    font-size: larger;
+}
+.pokemon-details-types div{
+    border: 1px solid ghostwhite;
+    border-radius: 15px;
+    padding: 0.2rem 1rem;
+    background-color: aliceblue;
+}
+.pokemon-details-image{
+    margin-top: 1.5rem;
+    max-height: 200px;
+}
