@@ -9,6 +9,7 @@
     margin-top: 1rem;
 }
 .pokemon-details-name >span{
+    text-transform: capitalize;
     font-size: larger;
     letter-spacing: 0.5rem;
 }
